@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-collapse {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.heading_up {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #e8b941;
+    font-family: underland;
+}
+
+.cardo {
+    font-family: cardo;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #38302b;
+    -webkit-text-stroke: 1px #38302b;
+    text-shadow: -4px -4px 0px #000;
+}
+
+.heading_btn {
+    background-color: #e8b941;
+    border: none;
+    padding: 15px 40px;
+}
+
+.product:hover {
+    background-color: #ccc;
+}
+
+.product:hover button {
+    display: block !important;
+}
